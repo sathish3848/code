@@ -1,0 +1,13 @@
+research_task:
+  description: >
+    Conduct a thorough research report on current trends, key players, and emerging developments in {topic}.
+  expected_output: >
+    A structured bulleted list highlighting top key trends, major risks, and key opportunities in {topic}.
+  agent: researcher
+
+analysis_task:
+  description: >
+    Analyze the research findings provided and generate 3 concrete strategic recommendations for enterprise decision-makers.
+  expected_output: >
+    A clear, professional markdown report containing key findings, strategic takeaways, and actionable next steps.
+  agent: analyst
